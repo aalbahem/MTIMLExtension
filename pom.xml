@@ -11,6 +11,15 @@
 	<name>MTIMLExtension</name>
 	<url>http://maven.apache.org</url>
 
+	
+	<distributionManagement>
+	    <repository>
+	      <id>github</id>
+	      <name>GitHub BratEval Apache Maven Packages</name>
+	      <url>https://maven.pkg.github.com/READ-BioMed/MTIMLExtension</url>
+	    </repository>
+  	</distributionManagement>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<local.sdk>${project.basedir}/lib</local.sdk>
